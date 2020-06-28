@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReentregaPB.Data\ReentregaPB.Data.csproj" />
+    <ProjectReference Include="..\ReentregaPB.Dominio.Model\ReentregaPB.Dominio.Model.csproj" />
+    <ProjectReference Include="..\ReentregaPB.Dominio.Service\ReentregaPB.Dominio.Service.csproj" />
+    <ProjectReference Include="..\ReentregaPB.Infraestrutura.Services\ReentregaPB.Infraestrutura.Services.csproj" />
+  </ItemGroup>
+
+</Project>
